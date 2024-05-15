@@ -15,7 +15,7 @@
                 return localStorage.getItem('theme') || 'light';
             }
             if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                return 'dark';
+                return 'light'; //changed to light by me
             }
             return 'light';
         })();
