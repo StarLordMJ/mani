@@ -23,7 +23,7 @@ const navLinks = siteConfig.footerNavLinks || [];
             { 'sm:flex-row-reverse sm:justify-between sm:items-center': socialLinks.length > 0 }
         ]}
     >
-        {
+        <!-- {
             socialLinks.length > 0 && (
                 <div class="flex flex-wrap gap-x-4 gap-y-1">
                     {socialLinks.map((link) => (
@@ -38,7 +38,8 @@ const navLinks = siteConfig.footerNavLinks || [];
                     ))}
                 </div>
             )
-        }
+        } -->
+        <p class="text-sm">Manith Marapperuma</p>
         <p class="text-sm">
             &copy; {new Date().getFullYear()}&nbsp;<a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
         </p>

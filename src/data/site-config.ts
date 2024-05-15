@@ -44,10 +44,10 @@ const siteConfig: SiteConfig = {
             text: 'Home',
             href: '/'
         },
-        {
-            text: 'Projects',
-            href: '/projects'
-        },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
         {
             text: 'Blog',
             href: '/blog'
@@ -55,10 +55,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Tags',
             href: '/tags'
-        },
-        {
-            text: 'About',
-            href: '/about'
         },
         {
             text: 'Contact',
@@ -87,8 +83,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Portfolio!',
-        text: "I'm **Manith**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Welcome to My Portfolio 🚀',
+        text: "Hi! I'm **Manith**, Computer Engineering undergraduate student with a strong foundation in programming, data structures and algorithms. Skilled in languages such as Python, Java and C++. Familiarity with web development and databases. Strong analytical and problem-solving skills with a passion for staying current with the latest technology trends. Seeking opportunities to apply my skills and gain hands-on experience in the field. Willing to learn and grow as a Machine Learning Engineer to become a valuable asset to any organization.",
         image: {
             src: '/hero.jpeg',
             alt: 'Manith photo'
